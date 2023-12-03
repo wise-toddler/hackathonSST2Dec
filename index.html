@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOREM_IMSUM.</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <aside class="utility-bar">
             <div class="contact-info">
-                <div class="email-address">
+                <div class="email">
                     <img src="images/icons/envelope-regular.svg" alt="Email">
                     <p>contact@example.com</p>
-                <div class="phone-number">
+                </div>
+                <div class="phone">
                     <img src="images/icons/phone-solid.svg" alt="Phone">
                     <p>1-800-123-4567</p>
                 </div>
@@ -26,40 +28,54 @@
             </div>
         </aside>
 
-        <nav class="main-nav">
-            <div class="brand-name">
-                <h1 class="firstpart">LOREM_IMSUM</h1>
-                <h1 class="secondpart">.</h1>
+        <nav class="main-navigation">
+            <div class="brand">
+                <div class="brand-name">
+                    <h1 class="firstpart">LOREM_IMSUM</h1>
+                    <h1 class="secondpart">.</h1>
+                </div>
             </div>
 
-            <ul class="main-menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Team</a>
-                <a href="#">Blog</a>
-                <a href="#">Drop Down </a>
-                <a href="#">Contact</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Drop Down</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
+
         <section class="hero">
-            <div class="content">
+            <div class="hero-content">
                 <div class="hero-content-section">
                     <h1>Welcome to <br> LOREM_IMSUM</h1>
-                    <p class="hero-subtitle"> Sed autem laudantium dolores. Voluptatem itaque ea consequuntur eveniet. Eum quas beatae cumque eum quaerat. </p>
-                    <div class="hero-btns">
+                    <p class="hero-subtitle">Sed autem laudantium dolores. Voluptatem itaque ea consequuntur eveniet. Eum quas beatae cumque eum quaerat.</p>
+
+                    <div class="hero-buttons">
                         <button class="outline-btn">Get Started</button>
                         <button class="outline-btn">
-                            <img src="images/icons/play-solid.svg" alt="">Watch Video</button>
+                            <img src="images/icons/play-solid.svg" alt="Play Icon">Watch Video
+                        </button>
                     </div>
                 </div>
-                <div>
-                    <img src="images/stats-img.svg" alt="lol">
+                <div class="hero-image">
+                    <img src="images/stats-img.svg" alt="Statistical Image">
                 </div>
             </div>
         </section>
+
+
     </header>
+
     <section class="cards-container">
         <div class="cards-content">
             <div class="card">
@@ -81,90 +97,334 @@
         </div>
     </section>
 
+
     <article class="about-us">
         <div class="about-us-content">
             <div class="title-about">
                 <h2>About Us</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis necessitatibus modi assumenda repellat accusantium ab.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis
+                    necessitatibus modi assumenda repellat accusantium ab.</p>
             </div>
             <div class="about-us-section">
                 <section class="left-half">
-                    <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
+                    <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                     <img src="images/about.jpg" alt="image of stats of company with phone and paper" />
-                
-                    <!-- <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                        fuga numquam quasi dolore! Hic magnam maiores, adipisci deleniti,
-                        consectetur architecto unde sit quae ea corrupti nisi, nam
-                        blanditiis est non.
-                    </p> -->
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsam numquam ducimus,
+                            consequuntur quasi, a aliquam soluta accusamus necessitatibus ullam delectus, debitis aperiam quis
+                            laboriosam perspiciatis labore nulla hic alias! Placeat est maiores sequi ipsum numquam, doloribus
+                            odio deserunt pariatur magnam, quam excepturi assumenda nesciunt asperiores voluptatibus quo eos
+                            animi eveniet commodi expedita doloremque repellendus, aperiam quis veritatis? Quam, quos.</p>
                 </section>
                 <section class="right-half">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                        eligendi quis recusandae possimus eos consectetur non magni
-                        laboriosam cum deleniti natus rem..
-                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eligendi quis recusandae possimus
+                        eos consectetur non magni laboriosam cum deleniti natus rem..</p>
                     <div class="list-container">
                         <div class="list-item">
-                            <img src="images/check.png" /> <span>Lorem ipsum dolor sit.</span>
+                            <img src="images/check.png" alt="checkmark icon" alt="tick-bullet"> <span>Lorem ipsum dolor sit.</span>
                         </div>
                         <div class="list-item">
-                            <img src="images/check.png" /> <span>Lorem ipsum dolor sit.</span>
+                            <img src="images/check.png" alt="checkmark icon" alt="tick-bullet"> <span>Lorem ipsum dolor sit.</span>
                         </div>
                         <div class="list-item">
-                            <img src="images/check.png" /> <span>Lorem ipsum dolor sit.</span>
+                            <img src="images/check.png" alt="checkmark icon" alt="tick-bullet"> <span>Lorem ipsum dolor sit.</span>
                         </div>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Architecto ipsam numquam ducimus, consequuntur quasi, a aliquam
-                        soluta accusamus necessitatibus ullam delectus, debitis aperiam
-                        quis laboriosam perspiciatis labore nulla hic alias! Placeat est
-                        maiores sequi ipsum numquam, doloribus odio deserunt pariatur
-                        magnam, quam excepturi assumenda nesciunt asperiores voluptatibus
-                        quo eos animi eveniet commodi expedita doloremque repellendus,
-                        aperiam quis veritatis? Quam, quos.
-                    </p>
-    
-                    <img class="big-image" src="images/about-2.jpg"
-                        alt="group of people in a circle with hand on each other hand" />
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto ipsam numquam ducimus,
+                        consequuntur quasi, a aliquam soluta accusamus necessitatibus ullam delectus, debitis aperiam quis
+                        laboriosam perspiciatis labore nulla hic alias! Placeat est maiores sequi ipsum numquam, doloribus
+                        odio deserunt pariatur magnam, quam excepturi assumenda nesciunt asperiores voluptatibus quo eos
+                        animi eveniet commodi expedita doloremque repellendus, aperiam quis veritatis? Quam, quos.</p>
+                    <img class="big-image" src="images/about-2.jpg" alt="group of people in a circle with hand on each other hand" />
                 </section>
             </div>
         </div>
     </article>
+    <section class="clients">
+        <div class="clients-container">
+            <img src="images/clients/client-2.png" alt="client logo">   
+            <img src="images/clients/client-3.png" alt="client logo">   
+            <img src="images/clients/client-4.png" alt="client logo">   
+            <img src="images/clients/client-5.png" alt="client logo">
+            <img src="images/clients/client-6.png" alt="client logo">
+            <img src="images/clients/client-7.png" alt="client logo">   
+        </div>
+        <div class="clients-stat">
+            <img src="images/hero-img.svg" alt="clients-stat">
+            <div class="stats">
+                <div class="stat">
+                    <h2>232</h2>
+                    <p><b>Happy client</b> Lorem, ipsum dolor.</p>
+                </div>
+                <div class="stat">
+                    <h2>521</h2>
+                    <p><b>Projects</b>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="stat">
+                    <h2>453</h2>
+                    <p><b>Hours of Support</b>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <article class="Services">
-        <div class="ser-title" >
-            <h2>Our - Services</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis necessitatibus modi assumenda repellat accusantium ab.</p>
-        </div>
-    <div class="ser-cards">
-        <div class="ser-card-one-row">
-            <div class="card-qwerty">
-                <!-- <i class="icon-arrow"></i> -->
-                <h2 class="card-title">Nesciunt Mete</h2>
-                <p class="card-text">Provident minus quis nostrum omnis nemo maiores. Eos accusantium quis dolores.</p>
-                <a href="#" class="read-more">Read more →</a>
+    <!-- <section class="cta-section">
+        <div class="cta">
+            <div class="cta-bg-div">
+                <img src="images/cta-bg.jpg" alt="Background Image">
+
             </div>
-            <div class="card-qwerty">
-                <!-- <i class="icon-speaker"></i> -->
-                <h2 class="card-title">Eosle Commodi</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla facilisis.</p>
-                <a href="#" class="read-more">Read more →</a>
-            </div>
-            <div class="card-qwerty">
-                <!-- <i class="icon-tv"></i> -->
-                <h2 class="card-title">Ledo Markt</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla facilisis.</p>
-                <a href="#" class="read-more">Read more →</a>
+            <div class="overlay">
+                <h2>Call To Action</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+                <button class="cta-btn">Call To Action</button>
             </div>
         </div>
-        
+    </section> -->
+
+    <section class="services">
+        <div class="services-title">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis
+                necessitatibus modi assumenda repellat accusantium ab.</p>
+        </div>
+
+        <div class="service-cards">
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Nesciunt Mete</h2>
+                    <p class="card-text">Provident minus quis nostrum omnis nemo maiores. Eos accusantium quis dolores.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Eosle Commodi</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla
+                        facilisis.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Ledo Markt</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla
+                        facilisis.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Lorem, ipsum.</h2>
+                    <p class="card-text">Provident minus quis nostrum omnis nemo maiores. Eos accusantium quis dolores.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Eosle Commodi</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla
+                        facilisis.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="service-card">
+                    <h2 class="card-title">Ledo Markt</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi sit amet nulla
+                        facilisis.</p>
+                    <a href="#" class="read-more">Read more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <!-- title portfolio then subtext about it-->
+        <div class="portfolio-title">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis
+                necessitatibus modi assumenda repellat accusantium ab.</p>
+        </div>
+        <ul class="portfolio-list">
+            <li>All</li>
+            <li>App</li>
+            <li>Product</li>
+            <li>Branding</li>
+            <li>Books</li>
+        </ul>
+        <div class="products">
+            <div class="pro-card">
+                <img src="images/portfolio/app-1.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/app-2.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/app-3.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/books-1.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/books-2.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/books-3.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/branding-1.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/branding-2.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/branding-3.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/product-1.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/product-2.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+            <div class="pro-card">
+                <img src="images/portfolio/product-3.jpg" alt="Card Image">
+                <div class="pro-container">
+                    <h4><b>Card Title</b></h4>
+                    <p>Card Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="team-section">
+        <h2>Our Team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam cupiditate corporis natus, quis
+            necessitatibus modi assumenda repellat accusantium ab.</p>
+        <!-- <img src="person.jpg" alt="Person Image"> -->
+        <!-- <h3>Walter White</h3> -->
+        <!-- <p>Web Development</p> -->
+        <div class="teams-container">
+            <div class="team-member">
+                <img src="images/team/team-1.jpg" alt="Walter White">
+                <h2>Walter White</h2>
+                <p>Web Development</p>
+                <div class="social-icons" id="teamss">
+                    <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/team/team-2.jpg" alt="Sarah Johnson">
+                <h2>Sarah Johnson</h2>
+                <p>Marketing</p>
+                <div class="social-icons" id="teamss">
+                    <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/team/team-3.jpg" alt="William Anderson">
+                <h2>William Anderson</h2>
+                <p>Content</p>
+                <div class="social-icons" id="teamss">
+                    <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="images/team/team-4.jpg" alt="Amanda Jepson">
+                <h2>Amanda Jepson</h2>
+                <p>Accountant</p>
+                <div class="social-icons" id="teamss">
+                    <a href="#" target="_blank"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    </article>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>1. Non consectetur a erat nam at lectus urna duis?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="faq">
+            <h3>2. Felis eget nisl varius morbi enim nunc faucibus a pellentesque?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="faq">
+            <h3>3. Dolor a sit amet consectetur adipiscing elit pellentesque habitant morbi?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="faq">
+            <h3>4. Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="faq">
+            <h3>5. Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </section>
 
 </body>
 </html>
